@@ -3,7 +3,7 @@
         $("#aboutPara").slideToggle("slow");
     });
     $("#skill").click(function () {
-        $("#skillPara").slideToggle("slow");
+        $(".skillPara").slideToggle("slow");
     });
     $("#project").click(function(){
         $("#projectPara").slideToggle("slow");
