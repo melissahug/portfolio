@@ -49,10 +49,12 @@ p#resume a {
     color:white;
     font-size:20px;
     }
+#seperator {
+    font-size:22px;
+}
 
  #aboutPara,
  #connectPara,
- .skillPara,
  #projectPara
  {
      display:none;
@@ -63,11 +65,28 @@ p#resume a {
      background-color: rgba(2, 2, 2, .6);
      padding-top:10px;
      padding-bottom:10px;
-     
+     margin:20px;
 }
  .skillPara ul li {
      list-style:none;
  }
+
+ .softSkills {
+     font-size:10px;
+ }
+
+ .skillPara {
+     display:none;
+     font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align:center;
+     font-size:14px;
+     color:white;
+     background-color: rgba(2, 2, 2, .6);
+     
+     margin:0px;
+ }
+
+
 
  #copyName {
      padding-top:20px;
