@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+
 <head>
     <!--jQuery and JavaScript links START-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="script.js"></script>
     <title>Melissa Hughes</title>
+    <link rel="icon" href="images/favicon.ico" type="icon" sizes="16x16">
+
+
     <meta charset="utf-8" />
 
     <!--BOOTSTRAP CDN START-->
@@ -16,40 +20,64 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!--BOOTSTRAP CDN END-->
 
+
     <link href="stylesheet.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Amita|Dancing+Script|EB+Garamond|Eczar|Open+Sans|Quattrocento|Qwigley|Satisfy|Tangerine" rel="stylesheet">
 
 
 </head>
 <body>
-    <div>
+    <!--First div with my Name and Tag START-->
+    <div id="backgroundPic">
+        <div id="navLinks">
+            <span>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#connect">Let's Connect</a></li>
+                </ul>
+            </span>
+        </div>
         <h1 id="myName">Melissa Hughes</h1>
         <h3 id="tagLine">Software Engineer</h3>
+        <!--END first div-->
+        <!--Page navigation div START-->
 
     </div>
-    <!--BEGIN - About Me-->
-    <!--Visable header-->
-    <div id="about">About Me</div>
-    <!--END visable header-->
-    <!--User needs to click above header to see ABOUT ME content below-->
-    <div id="aboutPara">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p><img src="images/paris.jpg" id="myImg" class="img-rounded img-responsive"><small id="picCaption">Eiffel Tower, Paris, France</small></p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>As one that constantly looks for ways to reinvent and improve, Melissa made the decision to change careers from non-profit/social service to Information Technology. Initially, learning to code was a way to add skills and remain competative. However, it quickly turned into her primary interest and she began using online tutorials to learn. Currently she is a Software Engineering Apprentice with <a href="https://wecancodeit.org/" target="_blank">We Can Code IT</a>&nbsp;boot camp in Cleveland, Ohio.</p>
-                    <p>
-                        Born and raised in Cleveland, Ohio, she has lived in New Orleans, Louisiana, Gettysburg, Pennsylvania and Philadelphia, Pennsylvania. When not creating amazing sites and programs, Melissa is focused on her first love - travel. Her two favorite places are Toronto and Paris and she looks forward to having a vacation home in both locations.
-                    </p>
 
+    <!--END page navigation-->
+    <div>
+        <!--BEGIN - About Me-->
+        <!--About Me Header-->
+        <div id="about">About Me</div>
+        <!--END header-->
+        <!--ABOUTT ME content below-->
+        <div id="aboutPara">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class=col-lg-9 col-sm-12>
+                        <p>
+                            As one that constantly looks for ways to reinvent and improve, Melissa made the decision to change careers from non-profit/social service to Information Technology. Initially, learning to code was a way to add skills and remain competitive. However, it quickly turned into her primary interest and she began using online tutorials to learn. Currently she is a Software Engineering Apprentice with <a href="https://wecancodeit.org/" target="_blank">We Can Code IT</a>&nbsp;boot camp in Cleveland, Ohio.<br>
+                            <br>Born and raised in Cleveland, she has lived in New Orleans, Louisiana, Gettysburg, Pennsylvania and Philadelphia, Pennsylvania. When not creating sites and programs, Melissa is focused on her first love - travel. Her two favorite places are Toronto, Canada and Paris, France and she looks forward to having a vacation home in both locations.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p style="font-size:11px; text-decoration:italic"><img src="images/MHinParis.jpg" id="myImg" class="img-rounded img-responsive">Eiffle Tower, Paris, France</a></p>
+                    </div>
                 </div>
             </div>
         </div>
+        <!--<span class="glyphicon glyphicon-menu-up" aria-hidden="true"><a href="#headingName"></a></span>-->
     </div>
     <!--user must click to hide the above ABOUT ME content-->
     <!--END - About ME-->
+    </div>
+
+
+
     <!--BEGIN - Skills-->
     <!--Visable header-->
     <div id="skill">Skills</div>
@@ -57,89 +85,72 @@
     <!--User needs to click above link to see SKILLS content below-->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12 skillPara">
-                <h3>Soft Skills</h3>
+            <div class="col-md-4 col-sm-12 skillPara">
+                <h3 style="text-align:center">Soft Skills</h3>
                 <ul id="softSkills">
-                    <li>Communitcation</li>
-                    <li>Emotional Intelligence</li>
+                    <li>Communication</li>
+                    <li>Emotional intelligence</li>
                     <li>Adaptable to change</li>
                     <li>Creative</li>
                     <li>Determined</li>
                     <li>&nbsp;</li>
-                    <li>&nbsp;</li>
-                    <li>&nbsp;</li>
-                    <li>&nbsp;</li>
-
                 </ul>
             </div>
-            <div class="col-md-6 col-sm-12 skillPara">
-                <h3>Technical Skills</h3>
+            <div class="col-md-4 col-sm-12 skillPara">
+                <h3>Back-End Development</h3>
                 <ul id="techSkills">
                     <li>C#</li>
                     <li>.NET</li>
                     <li>MVC</li>
                     <li>Visual Studios</li>
                     <li>SQL</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>jQuery</li>
-                    <li>JavaScript</li>
+                    <li>Database Design</li>
                 </ul>
             </div>
-
+            <div class="col-md-4 col-sm-12 skillPara">
+                <h3>Front-End Development</h3>
+                <ul id="techSkills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>JavaScript</li>
+                    <li>&nbsp;</li>
+                </ul>
+            </div>
         </div>
     </div>
-
+    <!--<span class="glyphicon glyphicon-menu-up" aria-hidden="true"><a href="#headingName"></a></span>-->
+    </div>
     <!--END Skills-->
     <!--BEGIN - Projects-->
     <!--Visable Project Header-->
     <div id="project">Projects</div>
     <!--END Visable Header-->
-    <!--User needs to click the link above to see PROJECT content below-->
-    <div id="projectPara">
-        <!--Carousel START-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="images/Vitual Pet.PNG" alt="Picture of Virtual Pet" id="caroImg" />
-                    <div class="carousel-caption">
-                        <p>Technology used: C#, Visual Studios, GitHub </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/WardrobeMVC.PNG" alt="Pic of Wardrobe website" id="caroImg" />
-                    <div class="carousel-caption">
-                        <p>Technology used: SQL, MVC, HTML, CSS, GitHub</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/HomepageDesign.PNG" alt="pic of Tuscan website" id="caroImg" />
-                    <div class="carousel-caption">
-                        <p>Technology used: HTML, CSS, Github</p>
-                    </div>
-                </div>
-                <!--Images end-->
+    <div class="container">
+        <div class="row">
+
+            <!-- Img side by side -->
+            <div class="col-lg-4 col-sm-12" id="caroImg">
+                <img src="images/HomepageDesign400.PNG" alt="homepageSample" />
+                <p id="skillUsed">Technology used:&nbsp;<br /> HTML, CSS, Github&nbsp;<br /><a href="https://github.com/melissahug/TuscanyVilla" target="_blank">Github Repository</a></p>
+
             </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-lg-4 col-sm-12" id="caroImg">
+                <img src="images/VitualPet400.PNG" alt="virtualPetAssignment" />
+                <p id="skillUsed">Technology used:&nbsp;<br /> C#, Visual Studios, GitHub&nbsp;<br /><a href="https://github.com/melissahug/VirtualPet" target="_blank">Github Repository</a></p>
+
+            </div>
+            <div class="col-lg-4 col-sm-12" id="caroImg">
+                <img src="images/WardrobeMVC400.PNG" alt="waredrobeWebsite" />
+                <p id="skillUsed">Technology used:&nbsp;<br /> SQL, Visual Studios, MVC, GitHub&nbsp;<br /><a href="https://github.com/melissahug/WardrobeMVC" target="_blank">Github Repository</a></p>
+
+            </div>
+            <!--Images end-->
+
         </div>
-        <!--END Carousel-->
     </div>
-    <!--User must click to hide PROJECT content-->
+    <!--<span class="glyphicon glyphicon-menu-up" aria-hidden="true"><a href="#headingName"></a></span>-->
     <!--END - Project-->
     <!--BEGIN - Let's Connect-->
     <!--Visable Header below-->
@@ -151,7 +162,8 @@
         <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp; - 717-701-7607</p>
         <p>LinkedIn<br />www.linkedin.com/in/melissahughes216<br /><a href="https://www.linkedin.com/in/melissahughes216" target="_blank"><img src="images/Logo-Black-14px.png" alt="LinkedIn Logo" id="linkedIn"></a></p>
         <p>GitHub<br />github.com/melissahug<br /><a href="https://github.com/melissahug" target="_blank"><img src="images/Octocat.png" id="github" alt="GitHub Octocat Logo" style="width:35px; height:35px;" /></a></p>
-        <p id="resume"><a href="images/Melissa.Hughes.pdf">Download My Resume Here</a></p>
+        <p id="resume"><a href="images/MelissaHughes.pdf" target="_blank">Download My Resume Here</a></p>
+        <!--<span class="glyphicon glyphicon-menu-up" aria-hidden="true"><a href="#headingName"></a></span>-->
     </div>
     <!--User must click to hide the above CONNECT content-->
     <!--END - Let's Connect-->
