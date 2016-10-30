@@ -1,0 +1,113 @@
+﻿body {
+    margin:15px;
+    border:1px solid white;
+    border-radius:5px;
+    background-image: url('images/phone2.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+
+#myName {
+    font-family: 'Tangerine','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size:150px;
+    font-stretch:extra-expanded;
+    padding-top:15px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    font-weight:500;
+    }
+
+#tagLine {
+    text-align:center;
+    padding-bottom:170px;
+    font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch:expanded;
+    margin-top:-25px;
+    font-size:36px;
+    }
+
+
+p#resume a {
+    font-size: 20px;
+    text-decoration: none;
+    color:dodgerblue;
+    text-align: center;
+}
+
+#about, #skill, #connect, #project
+{
+    padding: 5px;
+    text-align:center;
+    font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(15, 15, 15, .8);
+    border:1px solid rgba(16, 16, 16, .9);
+    border-radius:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:2px;
+    color:white;
+    font-size:20px;
+    }
+#seperator {
+    font-size:22px;
+}
+
+ #aboutPara,
+ #connectPara,
+ #projectPara
+ {
+     display:none;
+     font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align:center;
+     font-size:18px;
+     color:white;
+     background-color: rgba(2, 2, 2, .6);
+     padding-top:10px;
+     padding-bottom:10px;
+     margin:20px;
+}
+ .skillPara ul li {
+     list-style:none;
+ }
+
+ .softSkills {
+     font-size:10px;
+ }
+
+ .skillPara {
+     display:none;
+     font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align:center;
+     font-size:14px;
+     color:white;
+     background-color: rgba(2, 2, 2, .6);
+     
+     margin:0px;
+ }
+
+
+
+ #copyName {
+     padding-top:20px;
+     text-align:right;
+     color:black;
+ }
+
+ #myImg {
+     height:300px;
+     margin-top:15px;
+     
+ }
+
+ #picCaption {
+     font-size:12px;
+     font-style:italic;
+     text-align:center;
+ }
+ /*Pictures on project carousel*/
+ #caroImg {
+     width:600px;
+     height:350px;
+     position:center;
+ }
